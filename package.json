@@ -1,0 +1,19 @@
+{
+  "name": "no-core-decorators",
+  "version": "1.0.0",
+  "description": "No Core Decorators",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/konglx90/no-core-decorators.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/konglx90/no-core-decorators/issues"
+  },
+  "homepage": "https://github.com/konglx90/no-core-decorators#readme"
+}
