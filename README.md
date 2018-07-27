@@ -42,4 +42,13 @@ foo.find_by_id(1).then(data => {
     console.log(data, 'find by id')
 })
 
+// or use assert
+find_by_id() {
+    assert.strictEqual(classOf(this.table), 'string')
+
+    // ...
+}
+
+// AOP ...
+
 ```
