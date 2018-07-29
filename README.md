@@ -52,3 +52,17 @@ find_by_id() {
 // AOP ...
 
 ```
+
+### requiredArgs
+
+```js
+@requiredArgs(['number']) // check type id => number
+find_by_id(id) {
+    const table = this.table;
+    const identitytField = this.identitytField || 'id';
+
+    const sql = `select * from ?? where ${identitytField} = ? `
+
+    return this.query(sql, [ table, id ])
+}
+```

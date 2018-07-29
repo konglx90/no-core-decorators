@@ -18,7 +18,7 @@ function requiredSelfFields(rules = {}) {
         let run = descriptor.value;
         descriptor.value = function(...args) {
             Object.keys(rules).forEach(field => {
-                if (rules[field] !== utils.classOf(this[field])) {
+                if (rules[field] !== classOf(this[field])) {
                     throw new Error(`${name} method need self has ${field}`);
                 }
             }) 
